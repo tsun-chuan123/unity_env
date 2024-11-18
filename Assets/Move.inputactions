@@ -1,0 +1,34 @@
+{
+    "name": "Move",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "dc077b2f-7e59-46c6-8867-892d52a5e2d9",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "6f92d016-5ecd-44a6-86f9-de761a0226ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e0521279-779b-4598-9004-1592721a3768",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

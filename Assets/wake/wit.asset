@@ -26,6 +26,8 @@ MonoBehaviour:
   m_Name: wit
   m_EditorClassIdentifier: 
   _clientAccessToken: PXZ4BTNSCZJLH6FNUTVA22A4FDZXTXBJ
+  editorVersionTag: 
+  buildVersionTag: 
   _appInfo:
     name: unity_voice
     id: 2304963349882706
@@ -590,7 +592,7 @@ MonoBehaviour:
   isDemoOnly: 0
   useIntentAttributes: 1
   useConduit: 1
-  _manifestLocalPath: 
+  _manifestLocalPath: ConduitManifest-9128b560-0d8a-4f0e-b75f-53e8aba31ea5.json
   excludedAssemblies:
   - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

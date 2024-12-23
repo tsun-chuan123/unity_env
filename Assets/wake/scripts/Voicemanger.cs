@@ -18,6 +18,21 @@ public class Voicemanger : MonoBehaviour
     [SerializeField] private UnityEvent wakeWordDetected;
     [SerializeField] private UnityEvent<string> completeTranscription;
 
+    
+
+    // 這個方法會被 Voice Events 的 Complete Transcription 事件調用
+    public void OnCompleteTranscription(string recognizedText)
+    {
+        if (transcriptionText != null)
+        {
+            transcriptionText.text = recognizedText; // 更新 UI 的文字
+        }
+        else
+        {
+            Debug.LogWarning("Transcription Text is not assigned in the Inspector.");
+        }
+    }
+
     private bool _voiceCommandReady;
     private void Awake()
     {

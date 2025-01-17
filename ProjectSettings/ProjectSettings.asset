@@ -885,7 +885,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: META_USE_STICK_CONTROL_THUMBSTICKS
-    Standalone: META_USE_STICK_CONTROL_THUMBSTICKS
+    Standalone: META_USE_STICK_CONTROL_THUMBSTICKS;ROS2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -991,7 +991,7 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
+  apiCompatibilityLevel: 3
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: f5e2bbf6-988c-4a1a-bede-e9979c8644ae
